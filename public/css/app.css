@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
+
+.logo-svg-pi-pos {
+    stroke-dasharray: 2162;
+    stroke-dashoffset: -2162;
+    stroke-linecap: round;
+    animation: dash 10s linear forwards;
+}
+
+@keyframes dash {
+
+    0% {
+        fill: rgba(5, 56, 107, 0);
+    }
+
+    50% {
+        fill: rgba(5, 56, 107, 0);
+        stroke-dashoffset: 0;
+    }
+
+
+    100% {
+        fill: rgba(5, 56, 107, 75);
+        stroke-dashoffset: 0;
+        stroke: #8ee4af;
+    }
+
+}
